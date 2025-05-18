@@ -1,0 +1,92 @@
+/* Color to turn to after click --> ##ec5d38 */
+
+@font-face {
+    font-family: Kalam;
+    src: url("C:\Users\rudra\repos\restaurant-page\src\assets\font\comic-sans-ms-font-family\comici.ttf");
+}
+
+body{
+    margin: 0;
+    background-image: url("C:\Users\rudra\repos\restaurant-page\src\assets\images\background_image_text.jpg");
+    background-size: cover;
+    background-position: center;   
+    background-repeat: no-repeat;   
+    min-height: 100vh;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    background-color: #E2691D;
+    flex-wrap: wrap;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    gap: 120px;
+}
+
+.contact{
+    margin-right: 100px;
+}
+
+button{
+    background-color: transparent;
+    border: none;
+    font-size: 48px;
+    font-family: Kalam;
+    color: #f9cb93;
+    cursor: pointer;
+}
+
+.food1, .food2{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+}
+
+.food1_description, .food2_description{
+    display: flex;
+    gap: 100px;
+    font-family: Kalam;
+}
+
+.intro{
+    width: 900px;
+}
+
+.intro > h1{
+    color: rgb(0, 0, 0);
+    font-size: 48px;
+}
+.intro > p{
+    font-size: 22px;
+    color: #71607C;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.food1_description > img, .food2_description > img{
+    margin-top: 20px;
+    transform: rotate(-4deg);
+    border: 10px solid rgb(123, 102, 155);
+    border-radius: 35px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.food2_description > img{
+    margin-top: 50px;
+    transform: rotate(4deg);
+}
+
+.food1_image, .food2_image{
+    height: 240px;
+    width: 434px;
+}
