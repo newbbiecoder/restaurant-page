@@ -65,3 +65,24 @@ food2_image.src = food_2;
 food2_image.setAttribute("alt", "anime-ahh-food");
 food2_image.classList.add('food2_image');
 food2_description.appendChild(food2_image);
+
+
+const home = document.querySelector('.home');
+const menu = document.querySelector('.menu');
+const about = document.querySelector('.about');
+const contact = document.querySelector('.contact');
+
+
+import navigateTo from "./toggle-pages";
+
+home.addEventListener('click', () => {
+    navigateTo('home');
+});
+
+menu.addEventListener('click', () => {
+    navigateTo('menu');
+});
+
+about.addEventListener('click', () => {
+    navigateTo('about');
+})

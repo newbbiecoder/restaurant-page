@@ -17,7 +17,7 @@ body{
 .container{
     display: flex;
     justify-content: space-between;
-    background-color: #E2691D;
+    background-color: #EEB48F;
     flex-wrap: wrap;
 }
 
@@ -36,7 +36,7 @@ button{
     border: none;
     font-size: 48px;
     font-family: Kalam;
-    color: #f9cb93;
+    color: #F2C9FF;
     cursor: pointer;
 }
 
@@ -66,7 +66,7 @@ button{
     font-size: 48px;
 }
 .intro > p{
-    font-size: 22px;
+    font-size: 24px;
     color: #71607C;
     display: flex;
     flex-wrap: wrap;
@@ -89,4 +89,101 @@ button{
 .food1_image, .food2_image{
     height: 240px;
     width: 434px;
+}
+
+.banner{
+    width: 100%;
+    height: 310px;
+}
+
+.menu_container{
+    text-align: center;
+}
+
+.menu_items{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: space-evenly;
+    background-color: #f7efda;
+    width: 2000px;
+    margin-left: 60px;
+    border-radius: 100px;
+}
+
+.appetizers > h1, .main-course > h1, .desserts > h1, .drinks > h1{
+    font-family: "Playwrite IN", cursive;
+    color: #e17b75;
+    font-size: 2.8rem;
+    font-weight: bolder;
+}
+
+.appetizers > p, .main-course > p, .desserts > p, .drinks > p{
+    font-family: "Comic Relief", system-ui;
+    font-size: 2rem;
+    color: #e49a50;
+    font-weight: bolder;
+}
+
+.menu_food_images{
+    height: 200px;
+    width: 200px;
+    border: 10px solid #e7a8a9;
+    border-radius: 30px;
+}
+
+.food_images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+}
+
+.about_us_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.about_us_heading{
+    color: #eb7d59;
+    font-size: 3.25rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: bolder;
+}
+
+.about_us_secondary_heading{
+    color: #815b28;
+    font-size: 2.0rem;
+    font-family: Kalam;
+    font-weight: bold;
+}
+
+.about_us_description{
+    color: #785421;
+    font-size: 1.5rem;
+    font-family: "Comic Relief", system-ui;
+    width: 1700px;
+}
+
+.cupcake{
+    height: 150px;
+    width: 150px;
+}
+
+.cupcake_and_special{
+    display: flex;
+    gap: 30px;
+}
+
+.special{
+    color: #785421;
+    font-size: 1.8rem;
+    font-weight: bolder;
+}
+
+.visit_us_soon{
+    height: 250px;
+    width: 200px;
 }
