@@ -21,7 +21,7 @@ food1_description.appendChild(food1_intro);
 
 // Append heading and description to intro
 const food1_heading = document.createElement('h1');
-food1_heading.textContent = 'Taste the Difference';
+food1_heading.innerHTML = 'Taste the Difference';
 food1_intro.appendChild(food1_heading);
 
 const food1_info = document.createElement('p');
@@ -77,12 +77,20 @@ import navigateTo from "./toggle-pages";
 
 home.addEventListener('click', () => {
     navigateTo('home');
+    home.style.color = "#4d2f1f";
 });
 
 menu.addEventListener('click', () => {
     navigateTo('menu');
+    menu.style.color = "#4d2f1f";
 });
 
 about.addEventListener('click', () => {
     navigateTo('about');
-})
+    about.style.color = "#4d2f1f";
+});
+
+contact.addEventListener('click', () => {
+    navigateTo('contact');
+    contact.style.color = "#4d2f1f";
+});
